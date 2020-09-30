@@ -1,0 +1,11 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  @extend %font__pt-sans;
+  margin: 0;
+  background-color: red;
+}
+a {
+  text-decoration: none;
+}

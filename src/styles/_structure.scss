@@ -1,0 +1,27 @@
+.structure{
+  
+  &__container {
+    margin: 0 auto;
+    width: 80rem;
+    position: relative;
+  }
+
+  &__full-width {
+    width: 75rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  &__half-width {
+    width: 40rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
+  &__fifth-width {
+    width: 14rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
+}
