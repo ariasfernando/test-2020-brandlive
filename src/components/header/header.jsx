@@ -9,7 +9,7 @@ import './header.scss';
 
 const Header = () => {
   return (
-    <header className="structure__full-width header">
+    <header className="structure__container structure__index-three header">
       <h1 className="header__logo">
         <a href="/">
           <img src={ logo } alt="Pufi"/>
@@ -55,7 +55,6 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-
     </header>
   )
 }

@@ -3,10 +3,13 @@
 
 .header{
   
-  padding-top: 2.5rem;
+  padding: 2.5rem 0 0;
   top: 0;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  margin-left: -40rem;
+  left: 50%;
 
   &__logo{
     margin: 0;
