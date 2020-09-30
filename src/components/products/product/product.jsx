@@ -19,6 +19,11 @@ const Product = (props) => {
       </div>
       
       <div className="structure__half-width product__illustration">
+        {buyButton ? 
+          <div class="product__button-container">
+            <a href="/" className="common__button">shop</a> 
+          </div>
+        : '' }
         <img src={ illustrationImage } alt={productName} />
       </div>
     

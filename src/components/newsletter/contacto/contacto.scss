@@ -1,0 +1,40 @@
+@import './../../../styles/fonts';
+
+.contacto {
+  margin: 1.5rem auto 6.375rem auto;
+  position: relative;
+  width: 34.25rem;
+
+  &__email {
+    @extend %font__pt-sans;
+    font-size: 0.75rem;
+    font-style: italic;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    border: 1px solid #777777;
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 3rem;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    background-image: url('./../../../assets/arrow.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

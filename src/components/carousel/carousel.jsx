@@ -16,21 +16,21 @@ const Carousel = () => {
     >
       <Slider>
         <Slide index={0}>
-          <div class="carousel__box">
+          <div className="carousel__box">
             <h2>Estár cómodo, <br/>nunca fue tan fácil</h2>
             <a href="/" className="common__button">shop</a>
           </div>
           <img src={slideImage} alt="Prueba"/>
         </Slide>
         <Slide index={1}>
-          <div class="carousel__box">
+          <div className="carousel__box">
             <h2>Estár cómodo, <br/>nunca fue tan fácil</h2>
             <a href="/" className="common__button">shop</a>
           </div>
           <img src={slideImage} alt="Prueba" />
         </Slide>
         <Slide index={2}>
-          <div class="carousel__box">
+          <div className="carousel__box">
             <h2>Estár cómodo, <br/>nunca fue tan fácil</h2>
             <a href="/" className="common__button">shop</a>
           </div>

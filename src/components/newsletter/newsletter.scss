@@ -1,0 +1,33 @@
+@import './../../styles/variables';
+@import './../../styles/fonts';
+
+.newsletter {
+  @extend %font__nunito;
+  padding-top: 5.25rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  p {
+    font-weight: lighter;
+    color: $color-gray-light;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.0625rem;
+  }
+
+  h2 {
+    font-weight: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.1875rem;
+  }
+
+  &__subtitle {
+    font-size: 0.75rem;
+  }
+
+
+
+}
