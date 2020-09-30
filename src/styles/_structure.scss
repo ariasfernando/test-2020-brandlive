@@ -24,4 +24,16 @@
     padding-right: 0.625rem;
   }
 
+  &__index-one{
+    z-index: 1;
+  }
+
+  &__index-two{
+    z-index: 2;
+  }
+
+  &__index-three{
+    z-index: 3;
+  }
+
 }
