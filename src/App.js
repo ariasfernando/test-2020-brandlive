@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import './App.scss';
 import Carousel from './components/carousel/carousel';
+import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Instagram from './components/instagram/instagram';
 import Newsletter from './components/newsletter/newsletter';
@@ -17,6 +18,7 @@ function App() {
         <Instagram />
         <Newsletter />
       </div>
+      <Footer />
     </Fragment>
   );
 }
