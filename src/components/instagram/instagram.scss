@@ -30,5 +30,9 @@
     grid-template-rows: repeat(2,11.375rem);
     grid-gap: 0.125rem;
     margin: 0 auto;
+    @media(max-width: $breakpoint-mobile) {
+      grid-template-columns: repeat(1,100%);
+      grid-template-rows: repeat(6, auto);
+    }
   }
 }

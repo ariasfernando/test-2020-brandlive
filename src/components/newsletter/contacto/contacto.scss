@@ -1,9 +1,16 @@
 @import './../../../styles/fonts';
+@import './../../../styles/variables';
 
 .contacto {
   margin: 1.5rem auto 6.375rem auto;
   position: relative;
   width: 34.25rem;
+
+  @media(max-width: $breakpoint-mobile) {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
   &__email {
     @extend %font__pt-sans;
@@ -29,6 +36,11 @@
     background-image: url('./../../../assets/arrow.png');
     background-position: center center;
     background-repeat: no-repeat;
+
+    @media(max-width: $breakpoint-mobile) {
+      right: 1rem;
+    }
+
     cursor: pointer;
     &:focus {
       outline: 0;

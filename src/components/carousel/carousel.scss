@@ -5,12 +5,41 @@
   width: 100%;
   top: 0;
 
+  @media(max-width: $breakpoint-mobile) {
+    height: 20rem;
+    overflow: hidden;
+  }
+
+  &__slider {
+    @media(max-width: $breakpoint-mobile) {
+      height: 20rem;
+    }    
+  }
+
   &__slide {
 
     text-align: center;
 
+    @media(max-width: $breakpoint-mobile) {
+      height: 20rem;
+    }    
+
     img {
       width: 100%;
+
+      @media(max-width: $breakpoint-mobile) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: auto;
+      }
+
+      @media(min-width: 590px) and (max-width: $breakpoint-mobile) {
+        height: auto;
+        width: 100%;
+      }
     }
 
     h2 {
@@ -26,6 +55,9 @@
       @media(max-width: $breakpoint-tablet) {
         font-size: 2.5rem;
       }
+      @media(max-width: $breakpoint-mobile) {
+        font-size: 1.5rem;
+      }
     }
 
     a {
@@ -33,6 +65,12 @@
       bottom: 18%;
     }
 
+  }
+
+  &__inner-slide {
+    @media(max-width: $breakpoint-mobile) {
+      overflow: hidden;
+    }     
   }
 
   &__box {
@@ -43,6 +81,10 @@
     top: 22%;
     bottom: 18%;
     align-items: center;
+    @media(max-width: $breakpoint-mobile) {
+      top: 4rem;
+      bottom: 5rem;
+    }
   }
 
   &__dot-group {
