@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { CarouselProvider, Slider, Slide, DotGroup } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import slideImage from '../../assets/slider.jpg';

@@ -63,6 +63,7 @@ const Footer = () => {
               <img src={brandLive} alt="brandlive" />
             </a>
           </div>
+          <p>Fernando Rafael Arias - Tiempo estimado: 10:00hs</p>
         </div>
       </div>
     </footer>
