@@ -1,11 +1,12 @@
 import React from 'react';
+import './header.scss';
 import logo from './../../assets/logo.png';
 import pufiPuff from './../../assets/pufi-puff.png';
 import pufiRain from './../../assets/pufi-rain.png';
 import pufiCart from './../../assets/pufi-cart.png';
 import pufiNap from './../../assets/pufi-nap.png';
 import chevronDown from './../../assets/chevron-down.png';
-import './header.scss';
+
 
 const Header = () => {
   return (
@@ -55,6 +56,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+    
     </header>
   )
 }
