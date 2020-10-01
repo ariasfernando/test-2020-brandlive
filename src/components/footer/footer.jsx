@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="structure__container">
           <div className="structure__full-width footer__disclaimer">
             <span>PUFI Copyright 2017 - Todos los derechos reservados</span>
-            <a href="https://www.brandlivecommerce.com/" target="_blank">
+            <a href="https://www.brandlivecommerce.com/" target="_blank" rel="noopener noreferrer">
               <img src={brandLive} alt="brandlive" />
             </a>
           </div>

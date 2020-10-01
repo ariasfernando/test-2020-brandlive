@@ -10,6 +10,12 @@
   position: absolute;
   margin-left: -40rem;
   left: 50%;
+  @media(max-width: $breakpoint-desktop) {
+    margin-left: -30rem;
+  }
+  @media(max-width: $breakpoint-tablet) {
+    margin-left: -24rem;
+  }
 
   &__logo{
     margin: 0;
@@ -25,8 +31,16 @@
     li {
       @extend %font__nunito;
       padding: 0 1rem 0.5rem;
+
       text-align: center;
       position: relative;
+
+      @media(max-width: $breakpoint-desktop) {
+        padding: 0 0.75rem 0 0.375rem;
+      }
+      @media(max-width: $breakpoint-tablet) {
+        padding: 0 0.5rem 0 0.25rem;
+      }
 
       &:after {
         position: absolute;
@@ -52,6 +66,12 @@
         span {
           display: block;
           margin-top: 0.5rem;
+          @media(max-width: $breakpoint-desktop) {
+            font-size: 0.875rem;
+          }
+          @media(max-width: $breakpoint-tablet) {
+            font-size: 0.75rem;
+          }
         }
       }
     }
